@@ -41,7 +41,7 @@ class SelectionSort(SortingAlgorithm):
                     min_idx = j
 
             # Swap the first element of the unsorted list with the minimum element of the unsorted list
-            self._add_swap(i, min_idx)
+            self._add_swap([i, min_idx])
             data[i], data[min_idx] = data[min_idx], data[i]
 
             # CPU end time of the sorting algorithm

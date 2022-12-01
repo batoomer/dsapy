@@ -86,5 +86,5 @@ class QuickSort(SortingAlgorithm):
                 return r_idx
 
             # Swap left index with right index
-            self._add_swap(l_idx, r_idx)
+            self._add_swap([l_idx, r_idx])
             data[l_idx], data[r_idx] = data[r_idx], data[l_idx]

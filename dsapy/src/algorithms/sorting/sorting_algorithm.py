@@ -1,5 +1,6 @@
 from abc import ABC, abstractmethod
 from time import process_time
+from dsapy.src.data_structures.queue import Queue
 
 
 class SortingAlgorithm(ABC):
@@ -18,12 +19,12 @@ class SortingAlgorithm(ABC):
         }
 
         self.__animations = {
-            'swap': [],
+            'swap': Queue(),
         }
 
-    def _add_swap(self, i, j):
+    def _add_swap(self, seq):
         self.__metadata['swap_count'] += 1
-        self.__animations['swap'].append([i, j])
+        self.__animations['swap'].enqueue(seq)
 
     def _add_comparison(self):
         self.__metadata['comparison_count'] += 1

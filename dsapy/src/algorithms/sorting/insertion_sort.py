@@ -43,7 +43,7 @@ class InsertionSort(SortingAlgorithm):
                 self._add_iteration()
 
                 # Swap
-                self._add_swap(j, j-1)
+                self._add_swap([j, j-1])
                 data[j], data[j - 1] = data[j - 1], data[j]
                 j -= 1
 

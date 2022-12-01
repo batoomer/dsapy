@@ -38,7 +38,7 @@ class BubbleSort(SortingAlgorithm):
                 if data[j] > data[j + 1]:
                     # Swap the elements
                     data[j], data[j + 1] = data[j + 1], data[j]
-                    self._add_swap(j, j+1)
+                    self._add_swap([j, j+1])
 
         # CPU end time of the sorting algorithm
         self._stop_runtime()

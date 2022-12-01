@@ -63,8 +63,8 @@ class SortingModel:
 
         :return: List containing the swapped indices or None.
         """
-        if self.__animations['swap']:
-            return self.__animations['swap'].pop(0)
+        if not self.__animations['swap'].empty():
+            return self.__animations['swap'].dequeue()
         else:
             return None
 
