@@ -4,7 +4,7 @@ import unittest
 from dsapy.src.algorithms.sorting.insertion_sort import InsertionSort
 
 
-class TestBubbleSort(unittest.TestCase):
+class TestInsertionSort(unittest.TestCase):
     sorter = InsertionSort()
 
     def test_sort_string(self):
