@@ -11,6 +11,14 @@ class QuickSort(SortingAlgorithm):
         super().__init__()
 
     def sort(self, data: list[int | float | str]) -> list[int | float | str]:
+        """
+        This function is an implementation of the quick sort algorithm.
+        It sorts the list in ascending order.
+        It returns a sorted copy of the input list.
+
+        :param data: list to be sorted
+        :return: sorted copy of input list
+        """
         # Initiate/Reset the metadata and animations
         self._reset_metadata_animations()
 
