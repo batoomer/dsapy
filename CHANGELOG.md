@@ -6,8 +6,14 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 ## [Unreleased]
 
 ## [0.0.3] - 2022-12-01
+### Changed
+- quick_sort.py: QuickSort Inherits the SortingAlgorithm abstract class
+- selection_sort.py: SelectionSort Inherits the SortingAlgorithm abstract class
+- insertion_sort.py: InsertionSort Inherits the SortingAlgorithm abstract class
+- bubble_sort.py: BubbleSort Inherits the SortingAlgorithm abstract class
 
 ### Added
+- sorting_algorithm.py: Abstract class SortingAlgorithm
 - Quick Sort support for the sorting visualizer
 - quick_sort.py with the hoare partition scheme and test
 - Sorting Visualizer GUI
