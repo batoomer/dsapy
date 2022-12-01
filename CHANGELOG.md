@@ -8,6 +8,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 ## [0.0.2] - 2022-11-26
 
 ### Changed
+- selection_sort from function to class. It now calculates metadata and animations 
+sequences which we can get after the algorithms has finished running.
 - insertion_sort from function to class. It now calculates metadata and animations 
 sequences which we can get after the algorithms has finished running.
 - bubble_sort from function to class. It now calculates metadata and animation 
