@@ -29,8 +29,6 @@ class TestBubbleSort(unittest.TestCase):
         sorted_data = sorter.sort(data)
         self.assertNotEqual(id(data), id(sorted_data))
         self.assertEqual(sorted(data), sorted_data)
-        print(sorter.metadata())
-        print(len(sorter.animation()['swap']))
 
 
 if __name__ == '__main__':

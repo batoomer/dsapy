@@ -28,7 +28,7 @@ class BubbleSort:
             'swap_count': 0,
             'comparison_count': 0,
             'iteration_count': 0,
-            'run_time': 0.0,
+            'runtime': 0.0,
         }
 
         self.__animation = {
@@ -98,7 +98,7 @@ class BubbleSort:
         end_time = time.process_time()
 
         # Total CPU time in ms
-        self.__metadata['run_time'] = round(1000 * (end_time - start_time), )
+        self.__metadata['runtime'] = round(1000 * (end_time - start_time), )
 
         # Return the sorted array
         return data
