@@ -98,7 +98,7 @@ class BubbleSort:
         end_time = time.process_time()
 
         # Total CPU time in ms
-        self.__metadata['runtime'] = round(1000 * (end_time - start_time), )
+        self.__metadata['runtime'] = round(1000 * (end_time - start_time), 2)
 
         # Return the sorted array
         return data
