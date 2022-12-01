@@ -8,6 +8,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 ## [0.0.3] - 2022-12-01
 
 ### Added
+- Quick Sort support for the sorting visualizer
+- quick_sort.py with the hoare partition scheme and test
 - Sorting Visualizer GUI
 
 ## [0.0.2] - 2022-11-26

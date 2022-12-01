@@ -10,7 +10,8 @@ ALGORITHM_CONFIG = {
     'algorithms': [
         'Bubble Sort',
         'Selection Sort',
-        'Insertion Sort'
+        'Insertion Sort',
+        'Quick Sort'
     ]
 }
 

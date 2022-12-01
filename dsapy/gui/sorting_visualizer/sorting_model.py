@@ -2,6 +2,7 @@ import random
 from .sorting_config import SIZE_CONFIG, ALGORITHM_CONFIG
 from ...src.algorithms.sorting.bubble_sort import BubbleSort
 from ...src.algorithms.sorting.insertion_sort import InsertionSort
+from ...src.algorithms.sorting.quick_sort import QuickSort
 from ...src.algorithms.sorting.selection_sort import SelectionSort
 
 
@@ -76,7 +77,7 @@ class SortingModel:
         return self.__metadata
 
     @staticmethod
-    def __select_algorithm(algorithm: str) -> BubbleSort | InsertionSort | SelectionSort:
+    def __select_algorithm(algorithm: str) -> BubbleSort | InsertionSort | SelectionSort | QuickSort:
         """
         Returns the sorter object according to the algorithm input
 
@@ -90,6 +91,8 @@ class SortingModel:
                 return InsertionSort()
             case 'Selection Sort':
                 return SelectionSort()
+            case 'Quick Sort':
+                return QuickSort()
             case _:
                 raise ValueError('Unexpected Algorithm')
 
