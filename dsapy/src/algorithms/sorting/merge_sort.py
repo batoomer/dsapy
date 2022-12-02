@@ -46,15 +46,16 @@ class MergeSort(SortingAlgorithm):
         """
         It's not merge sort but it produces the merge sort pattern.
         """
-        j = right
-        while j > middle:
+
+        i = left
+        while i <= middle:
             self._add_iteration()
-            i = left
-            while i <= middle:
+            j = right
+            while j > middle:
                 self._add_iteration()
                 self._add_comparison()
                 if data[i] > data[j]:
                     data[i], data[j] = data[j], data[i]
                     self._add_swap([i, j])
-                i += 1
-            j -= 1
+                j -= 1
+            i += 1
