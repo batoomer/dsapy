@@ -14,6 +14,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 - bubble_sort.py: BubbleSort Inherits the SortingAlgorithm abstract class
 
 ### Added
+- Merge Sort support for the sorting visualizer
+- merge_sort.py
 - sorting_algorithm.py: Abstract class SortingAlgorithm
 - Quick Sort support for the sorting visualizer
 - quick_sort.py with the hoare partition scheme and test

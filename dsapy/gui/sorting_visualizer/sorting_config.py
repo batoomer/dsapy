@@ -11,7 +11,8 @@ ALGORITHM_CONFIG = {
         'Bubble Sort',
         'Selection Sort',
         'Insertion Sort',
-        'Quick Sort'
+        'Quick Sort',
+        'Merge Sort'
     ]
 }
 
