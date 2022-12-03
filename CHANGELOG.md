@@ -5,6 +5,11 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 
 ## [Unreleased]
 
+## [0.0.4] - 2022-12-03
+
+### Added
+- Stack Data Structure Visualizer GUI
+
 ## [0.0.3] - 2022-12-01
 ### Changed
 - sorting_algorithm.py: replaced animation list with queue data structure

@@ -1,5 +1,6 @@
 from config import *
 from dsapy.gui.sorting_visualizer.sorting_controller import SortingController
+from dsapy.gui.stack_visualizer.stack_controller import StackController
 
 
 class App(tk.Tk):
@@ -13,7 +14,7 @@ class App(tk.Tk):
         self.grid_rowconfigure(0, weight=1)
         self.grid_columnconfigure(0, weight=1)
 
-        self.controller = SortingController(self)
+        self.controller = StackController(self)
 
 
 if __name__ == '__main__':
