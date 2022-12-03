@@ -1,7 +1,8 @@
 from config import *
+
+from dsapy.gui.queue_visualizer.queue_controller import QueueController
 from dsapy.gui.sorting_visualizer.sorting_controller import SortingController
 from dsapy.gui.stack_visualizer.stack_controller import StackController
-
 
 class App(tk.Tk):
     def __init__(self, *args, **kwargs):
@@ -14,7 +15,7 @@ class App(tk.Tk):
         self.grid_rowconfigure(0, weight=1)
         self.grid_columnconfigure(0, weight=1)
 
-        self.controller = StackController(self)
+        self.controller = QueueController(self)
 
 
 if __name__ == '__main__':

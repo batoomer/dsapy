@@ -8,6 +8,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 ## [0.0.4] - 2022-12-03
 
 ### Added
+- Queue Data Structure Visualizer GUI
 - Stack Data Structure Visualizer GUI
 
 ## [0.0.3] - 2022-12-01
